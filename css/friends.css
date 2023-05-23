@@ -84,7 +84,7 @@ img {
     border-radius: 20px;
     display: none;
 
-    z-index: 1001;
+    z-main: 1001;
 }
 
 .overlay {
