@@ -21,22 +21,22 @@
 
                 <div class="exercises">
                     <div class="exercise">
-                        <input type="checkbox" id="option1">
+                        <input type="checkbox" id="option1" class="checkbox">
                         <label for="option1">Exercise 1</label>
                         <button class="info_button">info</button>
                     </div>
                     <div class="exercise">
-                        <input type="checkbox" id="option2">
+                        <input type="checkbox" id="option2" class="checkbox">
                         <label for="option2">Exercise 2</label>
                         <button class="info_button">info</button>
                     </div>
                     <div class="exercise">
-                        <input type="checkbox" id="option3">
+                        <input type="checkbox" id="option3" class="checkbox">
                         <label for="option3">Exercise 3</label>
                         <button class="info_button">info</button>
                     </div>
                     <div class="exercise">
-                        <input type="checkbox" id="option4">
+                        <input type="checkbox" id="option4" class="checkbox" onclick="check_checkboxes()">
                         <label for="option4">Exercise 4</label>
                         <button class="info_button">info</button>
                     </div>
@@ -45,6 +45,13 @@
                 <div id="overlay" class="overlay">
                     <div id="popup" class="popup">
                         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                </div>
+
+                <div id="done_overlay" class="overlay">
+                    <div id="done_popup" class="done_popup">
+                        <div>⭐Good job! All exercises completed!⭐</div>
+                        <button class="done_button" onclick="window.location.href='main.html'">Complete workout</button>
                     </div>
                 </div>
             </div>

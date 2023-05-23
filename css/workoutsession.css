@@ -86,7 +86,38 @@ img {
     font-weight: bold;
     padding: 0;
     border-radius: 5px;
-    background-color: greenyellow;
+    background-color: #2bce5c;
     padding: 2px;
-    margin-left: 160px;
+    margin-left: 155px;
+}
+
+.done_popup {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    height: 70px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.done_button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #2bce5c;
+    padding: 2px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
 }

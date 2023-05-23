@@ -26,20 +26,18 @@
 
   #startButton {
     margin-top: 10%;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     padding: 0;
     border-radius: 50%;
-    background-color: #62a0fc;
+    bottom: 10px;
+    left: 155px;
+    background-color: #5498ff;
+    position: absolute;
   }
-
-  #startButton:hover{
-    background-color: #2bce5c;
-  }
-
 
   .container{
     max-width: 400px;
@@ -63,7 +61,7 @@
   }
 
   .schedule-p{
-    margin-top: 60%;
+    margin-top: 45%;
   }
 
   .popup {
@@ -119,7 +117,7 @@
   position: absolute;
   right: 20px;
   bottom: 20px;
-  background-color: #3ed42a;
+  background-color: #2bce5c;
 }
 
 .decisionButtons button{
@@ -128,4 +126,24 @@
   text-align: center;
   border: none;
   padding: 15px;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+.tip {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  border-radius: 5px;
+  background-color: #5498ff;
+  padding: 2px;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
 }

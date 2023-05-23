@@ -16,3 +16,14 @@ document.addEventListener("DOMContentLoaded", function() {
         popup.style.display = "none";
     });
 });
+
+function check_checkboxes() {
+    var checkboxes = document.getElementsByClassName("checkbox")
+
+    for(var i = 0; i < checkboxes.length; i++){
+        if(!checkboxes[i].checked) return;
+    }
+
+    document.getElementById("done_overlay").style.display = "block";
+    document.getElementById("done_popup").style.display = "flex";
+}
