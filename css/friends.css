@@ -1,0 +1,71 @@
+.container{
+    max-width: 400px;
+    height: 95%;
+    flex: 1;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+.header{
+    display: flex;
+}
+
+.header button{
+    margin-top: 4%;
+    height: 50%;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.line-between{
+    border-bottom: 1px solid black;
+    margin-left: -2rem;
+    width: 115%;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.friend {
+    width: 320px;
+    height: 80px;
+    margin: auto;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: left;
+
+    position: relative;
+}
+
+.friend_name {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.streak_img {
+    position: absolute;
+    right: 55px;
+}
+
+.streak_number {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
