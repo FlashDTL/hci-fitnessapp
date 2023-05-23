@@ -1,0 +1,36 @@
+.container{
+    max-width: 400px;
+    height: 95%;
+    flex: 1;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  .header{
+      position: flex;
+      text-align: center;
+  }
+
+.exercises {
+    margin: 20px;
+}
+
+.exercise {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.exercise:hover {
+    background-color: #eaeaea;
+}
+
+

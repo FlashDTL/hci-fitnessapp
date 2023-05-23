@@ -1,0 +1,91 @@
+#user-img{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 400px;
+    flex: 1;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+
+  .name-inputs {
+    display: flex;
+  }
+
+  .name-inputs input {
+    width: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .user-password-inputs{
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  .user-password-inputs input{
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+    
+.measurements{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+  .measurements input {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="range"] {
+    width: 70%;
+  }
+  
+  .dropdowns{
+      display: flex;
+      margin-left: 7%;
+  }
+  
+  .dropdowns select {
+    width: 90%;
+    margin-bottom: 2rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-divs{
+    margin-right: 7%;
+  }
+  
+  button[type="submit"] {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #62a0fc;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2bce5c;
+  }
