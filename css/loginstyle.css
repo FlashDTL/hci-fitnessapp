@@ -67,7 +67,7 @@
   
   .dropdowns select {
     width: 90%;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
