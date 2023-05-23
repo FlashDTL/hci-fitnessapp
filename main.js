@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var popup = document.getElementById("popup");
     var tip_overlay = document.getElementById("tip_overlay");
     var tip_popup = document.getElementById("tip_popup");
+    var notimplemented_overlay = document.getElementById("notimplemented_overlay");
+    var notimplemented_popup = document.getElementById("notimplemented_popup");
     
     var tips = document.getElementsByClassName("tip");
 
@@ -28,4 +30,14 @@ document.addEventListener("DOMContentLoaded", function() {
         tip_overlay.style.display = "none";
         tip_popup.style.display = "none";
     });
+
+    notimplemented_overlay.addEventListener("click", function() {
+        notimplemented_overlay.style.display = "none";
+        notimplemented_popup.style.display = "none";
+    });
 });
+
+function change_workout(){
+    notimplemented_overlay.style.display = "block";
+    notimplemented_popup.style.display = "block";
+}
